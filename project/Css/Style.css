@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Mukta:wght@200&display=swap');
+body {
+ font-family: 'Cairo', sans-serif;
+ height: auto;
+}
+.header {
+    background-color: rgb(247, 107, 107);
+    color: white;
+    height: 50px ;
+    line-height: 50px;
+}
+.header .gg-log-in {
+    float: right;
+}
+
+.gg-log-in {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 6px;
+    height: 16px;
+    border: 2px solid;
+    border-left: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-right: -10px;
+    margin-top: 20px;
+    color: white;
+   }
+   
+   .gg-log-in::after,
+   .gg-log-in::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+   }
+   
+   .gg-log-in::after {
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+    width: 8px;
+    height: 8px;
+    left: -8px;
+    bottom: 2px
+   }
+   
+   .gg-log-in::before {
+    border-radius: 3px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+    left: -11px;
+    bottom: 5px
+   } 
+h4 {
+    background-color: rgb(250, 173, 173);
+    border-radius: 5px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+/************************End header**********************/
+
+/*************************Start slider*******************/
+
+.carousel-indicators li {
+    height: 20px;
+    background-color: rgb(246, 196, 196);
+    
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(125, 128, 128, 0.461);
+    position: absolute;
+    z-index: 1;
+}
+
+/*******************start features**************/
+.features {
+    margin: 75px;
+}
+
+.features i {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(236, 101, 101);
+    line-height: 100px;
+    color: white;
+    font-size: 30px;
+}
+.features i:hover{
+    box-shadow: rgb(236, 139, 139);
+}
+.features h3{
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: black;
+}
+.features p {
+    color: rgb(26, 31, 31);
+}
+
+.features h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+/* start our team */
+.our-team {
+    background-color: #eee;
+    padding: 20px;
+    background-image: url(../images/airplan.jpg);
+   
+
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px rgb(215, 117, 117);
+    transition: (3px);
+}
+.card{
+    margin-bottom: 3px;
+}
+
+ /* start statistics  */
+
+.statistic {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/5012592.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+ }
+
+ .statistic .dverlay {
+    padding-top: 130px;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 100%;
+    height: 100%;  
+ } 
+
+.statistic .dverlay h3 {
+    color: white;
+ }
+ .statistic .dverlay p{
+    color: white;
+    font-size: 30px;
+
+ } 
+ /* end statistics  */
+
+ /* start Our customers */
+ .Our_customers {
+    background-color: white;
+    line-height: 200px;
+    
+}
+ /* end our customers */
+
+ .recent_news .btn-danger{
+    background-color: rgb(243, 140, 140);
+    border-color: rgb(247, 111, 111);
+ }
+ .recent_news .btn-danger:hover{
+    background-color: rgb(99, 26, 26);
+ }
+
+ /* start footer */
+ footer{
+    padding-top: 30px;
+    background-color: rgb(70, 161, 236);
+    background-image: url(../images/27033.jpg);
+    margin-top: 150px;
+}
+ footer p{
+    color: white;
+ }
+ footer h2{
+    color: white;
+ }
+ footer a{
+    color: white;
+ }
+ footer a:hover{
+    color: black;
+ }
+ footer ul li {
+    list-style: none;
+ }
+ /* end footer */
+
+ .jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .jumbotron .blog-info {
+    flex: 2;
+ }
+ .jumbotron .blog-image {
+    flex:1;
+ }
+
+
+ .blog_details p{
+    line-height: 2;
+    padding: 10px;
+
+ }
+
+ .courses img:hover {
+    transform: scale(1.1);
+ }
